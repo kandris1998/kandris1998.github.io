@@ -1,0 +1,115 @@
+html{
+/*   border: solid thin black; */
+  width: 2550px;
+}
+
+header {
+/*   border: solid thin black; */
+  height: 804px;
+  width: 2550px;
+  background: no-repeat url("http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png");
+  font-family: Abril Fatface;
+  color: #222 grey;
+/*   display: flex;
+  justify-content: center;
+  align-items: bottom; */
+}
+
+figure{
+  margin-right: 400px;
+  margin-left: 400px;
+  position: relative;
+  top: 400px;
+
+}
+
+h3{
+  font-size: 80px;
+  margin: 5px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  font-family: Josefin Sans;
+  margin-top: 100px;
+
+
+/*   border: solid thin black; */
+/*   display: flex;
+  justify-content: center; */
+/*   position: relative;
+  top: 500px; */
+}
+
+h1{
+  font-size: 170px;
+  margin:5px;
+  margin-top:0px;
+/*   border: solid thin black; */
+/*   display: flex;
+  justify-content: center; */
+/*   position: relative;
+  top: 500px; */
+}
+
+section{
+  margin-right: 400px;
+  margin-left: 400px;
+/*   border: solid thin black;
+ */
+}
+
+div {
+/*   border: solid thin black; */
+  font-family: Josefin Sans;
+  color: grey;
+  font-size: 44px;
+  margin-top: 100px;
+  margin-bottom: 120px;
+}
+
+ul{
+  margin: 50px;
+/*   border: solid thin black;
+ */
+}
+
+blockquote::before {
+  content: '”';
+}
+
+blockquote {
+  font-family: Abril Fatface;
+  background: black;
+  color: white;
+  font-size: 110px;
+  height: 300px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ padding: 100px;
+}
+
+.quotes {
+  width: 1750px;
+position: relative;
+  right: 100px;
+}
+
+sub{
+  font-family: Merriweather;
+  font-size: 44px;
+/*   border: solid thin black; */
+  }
+
+h4 {
+  font-size: 68px;
+  font-family: Josefin Sans;
+/*   border: solid thin black; */
+  margin-top: 100px;
+  margin-bottom: 10px;
+  }
+
+p {
+    border: solid thick black;
+
+}
