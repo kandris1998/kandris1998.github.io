@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="photo-viewer">
+
+<button id="button1" >
+    <img src="images/arrow.svg" class="arrow" id="left">
+</button>
+
+<div class="photo-container">
+    <img src="" class="photo" id="photo1">
+    <div class="text-box">
+        <h1 id="photo-title"></h1>
+        <p id="description"></p>
+    </div>
+</div>
+
+<button id="button2" > 
+    <img src="images/arrow.svg" class="arrow" id="right">
+</button>
+
+</main>
+
+<section class="thumbnail-container">
+
+</section>
+<h1>Clicked: <span id="clicked"></span></h1>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
